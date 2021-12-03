@@ -146,7 +146,7 @@ func run(ctx *cli.Context) error {
 		return err
 	}
 
-	log.Info("Starting ChainBridge...")
+	log.Info("Starting Watcher...")
 
 	cfg, err := config.GetConfig(ctx)
 	if err != nil {
